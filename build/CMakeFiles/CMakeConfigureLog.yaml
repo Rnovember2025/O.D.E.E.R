@@ -1,0 +1,1544 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      The target system is: PICO -  - cortex-m0plus
+      The host system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags:  
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/3.30.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags:  
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      g++.exe: error: unrecognized command-line option '--c++'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      g++.exe: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      g++.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/3.30.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 15.2.1 20251203
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:31 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-x6rteo"
+      binary: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-x6rteo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1/cmake"
+      PICO_SDK_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-x6rteo'
+        
+        Run Build Command(s): C:/mingw/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ed33a/fast
+        C:/mingw/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ed33a.dir\\build.make CMakeFiles/cmTC_ed33a.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-x6rteo'
+        Building C object CMakeFiles/cmTC_ed33a.dir/CMakeCCompilerABI.c.obj
+        C:\\mingw\\mingw64\\bin\\gcc.exe   -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec  -std=gnu11   -v -o CMakeFiles\\cmTC_ed33a.dir\\CMakeCCompilerABI.c.obj -c C:\\mingw\\mingw64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c
+        gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+        Using built-in specs.
+        COLLECT_GCC=C:\\mingw\\mingw64\\bin\\gcc.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        gcc.exe: error: unrecognized command-line option '-mthumb'
+        gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r1) 
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_ed33a.dir\\build.make:77: CMakeFiles/cmTC_ed33a.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-x6rteo'
+        mingw32-make: *** [Makefile:126: cmTC_ed33a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:31 (project)"
+    checks:
+      - "Check for working C compiler: C:/mingw/mingw64/bin/gcc.exe"
+    directories:
+      source: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-9018ii"
+      binary: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-9018ii"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1/cmake"
+      PICO_SDK_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-9018ii'
+        
+        Run Build Command(s): C:/mingw/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4182f/fast
+        C:/mingw/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4182f.dir\\build.make CMakeFiles/cmTC_4182f.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-9018ii'
+        Building C object CMakeFiles/cmTC_4182f.dir/testCCompiler.c.obj
+        C:\\mingw\\mingw64\\bin\\gcc.exe   -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec  -std=gnu11 -o CMakeFiles\\cmTC_4182f.dir\\testCCompiler.c.obj -c C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\O.D.E.E.R\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9018ii\\testCCompiler.c
+        gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+        gcc.exe: error: unrecognized command-line option '-mthumb'
+        gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_4182f.dir\\build.make:77: CMakeFiles/cmTC_4182f.dir/testCCompiler.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-9018ii'
+        mingw32-make: *** [Makefile:126: cmTC_4182f/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags:  
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/3.30.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags:  
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      g++.exe: error: unrecognized command-line option '--c++'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      g++.exe: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      g++.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/3.30.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 15.2.1 20251203
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:31 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-osdc6j"
+      binary: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-osdc6j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1/cmake"
+      PICO_SDK_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-osdc6j'
+        
+        Run Build Command(s): C:/mingw/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw/mingw64/bin/mingw32-make.exe -f Makefile cmTC_6601e/fast
+        C:/mingw/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6601e.dir\\build.make CMakeFiles/cmTC_6601e.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-osdc6j'
+        Building C object CMakeFiles/cmTC_6601e.dir/CMakeCCompilerABI.c.obj
+        C:\\mingw\\mingw64\\bin\\gcc.exe   -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec  -std=gnu11   -v -o CMakeFiles\\cmTC_6601e.dir\\CMakeCCompilerABI.c.obj -c C:\\mingw\\mingw64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c
+        gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+        Using built-in specs.
+        COLLECT_GCC=C:\\mingw\\mingw64\\bin\\gcc.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        gcc.exe: error: unrecognized command-line option '-mthumb'
+        gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r1) 
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_6601e.dir\\build.make:77: CMakeFiles/cmTC_6601e.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-osdc6j'
+        mingw32-make: *** [Makefile:126: cmTC_6601e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:31 (project)"
+    checks:
+      - "Check for working C compiler: C:/mingw/mingw64/bin/gcc.exe"
+    directories:
+      source: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-oxm3f9"
+      binary: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-oxm3f9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1/cmake"
+      PICO_SDK_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-oxm3f9'
+        
+        Run Build Command(s): C:/mingw/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7de74/fast
+        C:/mingw/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7de74.dir\\build.make CMakeFiles/cmTC_7de74.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-oxm3f9'
+        Building C object CMakeFiles/cmTC_7de74.dir/testCCompiler.c.obj
+        C:\\mingw\\mingw64\\bin\\gcc.exe   -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec  -std=gnu11 -o CMakeFiles\\cmTC_7de74.dir\\testCCompiler.c.obj -c C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\O.D.E.E.R\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oxm3f9\\testCCompiler.c
+        gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+        gcc.exe: error: unrecognized command-line option '-mthumb'
+        gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_7de74.dir\\build.make:77: CMakeFiles/cmTC_7de74.dir/testCCompiler.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-oxm3f9'
+        mingw32-make: *** [Makefile:126: cmTC_7de74/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags:  
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/3.30.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags:  
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      g++.exe: error: unrecognized command-line option '--c++'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      g++.exe: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      g++.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/3.30.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 15.2.1 20251203
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:31 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-ds3gw7"
+      binary: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-ds3gw7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1/cmake"
+      PICO_SDK_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-ds3gw7'
+        
+        Run Build Command(s): C:/mingw/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a2154/fast
+        C:/mingw/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a2154.dir\\build.make CMakeFiles/cmTC_a2154.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-ds3gw7'
+        Building C object CMakeFiles/cmTC_a2154.dir/CMakeCCompilerABI.c.obj
+        C:\\mingw\\mingw64\\bin\\gcc.exe   -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec  -std=gnu11   -v -o CMakeFiles\\cmTC_a2154.dir\\CMakeCCompilerABI.c.obj -c C:\\mingw\\mingw64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c
+        gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+        Using built-in specs.
+        COLLECT_GCC=C:\\mingw\\mingw64\\bin\\gcc.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        gcc.exe: error: unrecognized command-line option '-mthumb'
+        gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r1) 
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_a2154.dir\\build.make:77: CMakeFiles/cmTC_a2154.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-ds3gw7'
+        mingw32-make: *** [Makefile:126: cmTC_a2154/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:31 (project)"
+    checks:
+      - "Check for working C compiler: C:/mingw/mingw64/bin/gcc.exe"
+    directories:
+      source: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-a64k5b"
+      binary: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-a64k5b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1/cmake"
+      PICO_SDK_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-a64k5b'
+        
+        Run Build Command(s): C:/mingw/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw/mingw64/bin/mingw32-make.exe -f Makefile cmTC_fdb5b/fast
+        C:/mingw/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fdb5b.dir\\build.make CMakeFiles/cmTC_fdb5b.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-a64k5b'
+        Building C object CMakeFiles/cmTC_fdb5b.dir/testCCompiler.c.obj
+        C:\\mingw\\mingw64\\bin\\gcc.exe   -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec  -std=gnu11 -o CMakeFiles\\cmTC_fdb5b.dir\\testCCompiler.c.obj -c C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\O.D.E.E.R\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a64k5b\\testCCompiler.c
+        gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+        gcc.exe: error: unrecognized command-line option '-mthumb'
+        gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_fdb5b.dir\\build.make:77: CMakeFiles/cmTC_fdb5b.dir/testCCompiler.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-a64k5b'
+        mingw32-make: *** [Makefile:126: cmTC_fdb5b/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags:  
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-mthumb'
+      gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/mingw/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/3.30.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags:  
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      g++.exe: error: unrecognized command-line option '--c++'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      g++.exe: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      g++.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb;-mfloat-abi=soft;-ftls-model=local-exec
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-mthumb'
+      g++.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/mingw/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/3.30.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 15.2.1 20251203
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:31 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-pu1bml"
+      binary: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-pu1bml"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1/cmake"
+      PICO_SDK_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-pu1bml'
+        
+        Run Build Command(s): C:/mingw/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw/mingw64/bin/mingw32-make.exe -f Makefile cmTC_27264/fast
+        C:/mingw/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_27264.dir\\build.make CMakeFiles/cmTC_27264.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-pu1bml'
+        Building C object CMakeFiles/cmTC_27264.dir/CMakeCCompilerABI.c.obj
+        C:\\mingw\\mingw64\\bin\\gcc.exe   -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec  -std=gnu11   -v -o CMakeFiles\\cmTC_27264.dir\\CMakeCCompilerABI.c.obj -c C:\\mingw\\mingw64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c
+        gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+        Using built-in specs.
+        COLLECT_GCC=C:\\mingw\\mingw64\\bin\\gcc.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        gcc.exe: error: unrecognized command-line option '-mthumb'
+        gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-14.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r1' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-14.2.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r1) 
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_27264.dir\\build.make:77: CMakeFiles/cmTC_27264.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-pu1bml'
+        mingw32-make: *** [Makefile:126: cmTC_27264/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw/mingw64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:31 (project)"
+    checks:
+      - "Check for working C compiler: C:/mingw/mingw64/bin/gcc.exe"
+    directories:
+      source: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-h5cocg"
+      binary: "C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-h5cocg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1/cmake"
+      PICO_SDK_PATH: "C:/Users/markd/.pico-sdk/sdk/2.3.1"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-h5cocg'
+        
+        Run Build Command(s): C:/mingw/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e6994/fast
+        C:/mingw/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e6994.dir\\build.make CMakeFiles/cmTC_e6994.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-h5cocg'
+        Building C object CMakeFiles/cmTC_e6994.dir/testCCompiler.c.obj
+        C:\\mingw\\mingw64\\bin\\gcc.exe   -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -ftls-model=local-exec  -std=gnu11 -o CMakeFiles\\cmTC_e6994.dir\\testCCompiler.c.obj -c C:\\Users\\markd\\OneDrive\\Documents\\GitHub\\O.D.E.E.R\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h5cocg\\testCCompiler.c
+        gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+        gcc.exe: error: unrecognized command-line option '-mthumb'
+        gcc.exe: error: unrecognized command-line option '-mfloat-abi=soft'
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_e6994.dir\\build.make:77: CMakeFiles/cmTC_e6994.dir/testCCompiler.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/markd/OneDrive/Documents/GitHub/O.D.E.E.R/build/CMakeFiles/CMakeScratch/TryCompile-h5cocg'
+        mingw32-make: *** [Makefile:126: cmTC_e6994/fast] Error 2
+        
+      exitCode: 2
+...
