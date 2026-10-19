@@ -39,13 +39,13 @@ void Setup_GPIO(void) {
 
 void Reset_Camera(void) {
     gpio_put(RESET_PIN, 0);
-    sleep_ms(1);
+    sleep_ms(10);
     gpio_put(RESET_PIN, 1);
-    sleep_ms(500);
+    sleep_ms(10);
 }
 
-void SPI_Read(uint8_t include_header, uint16_t* frame) {
-    //If you include the header, you must allocate 5040 words for the frame.
+void SPI_Read(uint8_t include_header, uint16_t frame[80][62]) {
+    //read the thermal camera data over SPI. The pointer passed is a two dimensional array of 80x62 16-bit values. The include_header parameter is a boolean that indicates whether to include the 16-bit header in the data read.
     uint16_t length;
     uint8_t settings = I2C_Read(FRAME_MODE);
     if (include_header) {
@@ -57,9 +57,19 @@ void SPI_Read(uint8_t include_header, uint16_t* frame) {
     }
     I2C_Write(FRAME_MODE, settings);
 
+    uint16_t temp_frame[length];
+
     gpio_put(PIN_CS, 0);
-    spi_read16_blocking(SPI_PORT, REP_TX_DATA, frame, length);
+    spi_read16_blocking(SPI_PORT, REP_TX_DATA, temp_frame, length);
     gpio_put(PIN_CS, 1);
+
+    //reorganize the data into a 2D array of 80x62 values
+    for (int i = 0; i < 80; i++) {
+        for (int j = 0; j < 62; j++) {
+            frame[i][j] = temp_frame[i * 62 + j];
+        }
+    }
+
 }
 
 void I2C_Write(uint8_t register_addr, uint8_t data) {

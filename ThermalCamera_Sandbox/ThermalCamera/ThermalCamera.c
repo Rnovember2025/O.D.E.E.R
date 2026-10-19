@@ -2,36 +2,73 @@
 #include "MI48xx.h"
 #include "pico/time.h"
 
+uint16_t convertTemp(uint16_t hexValue) {
+    return ((hexValue / 10) - 273.15) * 1.8 + 32; // Convert to Fahrenheit
+}
+
 int main(void)
 {
     stdio_init_all();
 
-    Start_I2C();
+    sleep_ms(5000);
+
     Start_SPI();
     Setup_GPIO();
+    Start_I2C();
 
-    sleep_ms(2000);
+    uint8_t status;
+    uint8_t frame_mode;
+
     Reset_Camera();
-
-    printf("Test\n");
-
-    printf("\nScanning I2C Bus...\n");
-    for (uint8_t addr = 0x08; addr < 0x78; addr++) {
-        uint8_t rxdata;
-        int ret = i2c_read_blocking_until(I2C_PORT, addr, &rxdata, 1, false, make_timeout_time_us(100000));
-        if (ret >= 0) {
-            printf("I2C device found at address 0x%02X!\n", addr);
-        }
+    //wait for booting up bit to be set
+    while(true) {
+        status = I2C_Read(STATUS);
+        printf("STATUS: 0x%02X\n", status);
+        if (status & BOOTING_UP) {break;}
+        sleep_ms(50);
     }
-    printf("Scan complete.\n");
 
-    // while (true) {
-    //     printf("Hello, world!\n");
-    //     uint8_t status = I2C_Read(STATUS);
-    //     uint8_t frame_mode = I2C_Read(FRAME_MODE);
-        
-    //     printf("STATUS: 0x%02X | FRAME_MODE: 0x%02X\n", status, frame_mode);
-    //     sleep_ms(1000);
-    // }
+    //wait for booting up bit to be cleared
+    while(true) {
+        status = I2C_Read(STATUS);
+        printf("STATUS: 0x%02X\n", status);
+        if (!(status & BOOTING_UP)) {break;}
+        sleep_ms(50);
+    }
+
+    I2C_Write(FRAME_MODE, GET_SINGLE_FRAME | NO_HEADER);
+
+    uint16_t frame[80][62] = {0};
+
+    while (true) {
+        //printf("Hello, world!\n");
+
+        frame_mode = I2C_Read(FRAME_MODE);
+        status = I2C_Read(STATUS);
+        while (!(status & DATA_READY)) {
+            printf("STATUS: 0x%02X | FRAME_MODE: 0x%02X\n", status, frame_mode);
+            frame_mode = I2C_Read(FRAME_MODE);
+            status = I2C_Read(STATUS);
+            sleep_ms(50);
+        }
+
+        SPI_Read(false, frame);
+
+        for (int i = 0; i < 80; i++) {
+            for (int j = 0; j < 62; j++) {
+                uint16_t temp = convertTemp(frame[i][j]);
+                printf("%3d ", temp);
+            }
+            printf("\n");
+        }
+
+        //print the first 10 words from the frame buffer as temperatures
+        // for (int i = 0; i < 10; i++) {
+        //     uint16_t temp = convertTemp(frame[i]);
+        //     printf("%3d ", temp);
+        // }
+        printf("\n\n");
+        sleep_ms(1000);
+    }
     while (1) {sleep_ms(1000);}
 }
