@@ -38,7 +38,9 @@ int main(void)
 
     I2C_Write(FRAME_MODE, GET_SINGLE_FRAME | NO_HEADER);
 
-    uint16_t frame[80][62] = {0};
+    Enable_Median_Filter();
+
+    uint16_t frame[62][80] = {0};
 
     while (true) {
         //printf("Hello, world!\n");
@@ -54,9 +56,13 @@ int main(void)
 
         SPI_Read(false, frame);
 
-        for (int i = 0; i < 80; i++) {
-            for (int j = 0; j < 62; j++) {
+        for (int i = 0; i < 62; i++) {
+            for (int j = 0; j < 80; j++) {
                 uint16_t temp = convertTemp(frame[i][j]);
+                //print raw hex values only
+                //printf("%04X ", frame[i][j]);
+
+                //print converted temperature values
                 printf("%3d ", temp);
             }
             printf("\n");
