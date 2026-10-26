@@ -87,6 +87,22 @@ uint8_t I2C_Read(uint8_t register_addr) {
 
 
 
+uint8_t Wait_For_Image_Ready(uint8_t timeout) {
+    //timeout is in 10s of miliseconds
+    uint8_t elapsed_time = 0;
+    while (elapsed_time < timeout) {
+        uint8_t status = I2C_Read(STATUS);
+        if (status & DATA_READY) {
+            return 1;
+        }  
+        sleep_ms(10);
+        elapsed_time += 10;
+    }
+    return 0;
+}
+
+
+
 uint8_t Get_Status(void) {
     //Bit 1: READOUT_TO_SLOW
     //Bit 2: SENXOR_IF_ERROR

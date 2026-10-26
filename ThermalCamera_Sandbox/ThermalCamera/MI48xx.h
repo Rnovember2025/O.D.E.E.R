@@ -7,7 +7,7 @@
 
 // SPI Defines
 #define SPI_PORT spi0
-#define SPI_SPEED 1000*1000 //1 MHz
+#define SPI_SPEED 10000*1000 //10 MHz
 #define PIN_MISO 4
 #define PIN_CS   5
 #define PIN_SCK  2
@@ -77,6 +77,8 @@ void Reset_Camera(void);
 void SPI_Read(uint8_t include_header, uint16_t frame[62][80]);
 void I2C_Write(uint8_t register_addr, uint8_t data);
 uint8_t I2C_Read(uint8_t register_addr);
+
+uint8_t Wait_For_Image_Ready(uint8_t timeout);
 
 uint8_t Get_Status(void);
 

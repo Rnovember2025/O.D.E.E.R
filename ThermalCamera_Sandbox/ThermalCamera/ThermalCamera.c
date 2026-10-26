@@ -36,22 +36,23 @@ int main(void)
         sleep_ms(50);
     }
 
-    I2C_Write(FRAME_MODE, GET_SINGLE_FRAME | NO_HEADER);
-
     Enable_Median_Filter();
 
     uint16_t frame[62][80] = {0};
 
     while (true) {
         //printf("Hello, world!\n");
+        
+        I2C_Write(FRAME_MODE, GET_SINGLE_FRAME | NO_HEADER);
 
         frame_mode = I2C_Read(FRAME_MODE);
         status = I2C_Read(STATUS);
+        printf("STATUS: 0x%02X | FRAME_MODE: 0x%02X\n", status, frame_mode);
         while (!(status & DATA_READY)) {
-            printf("STATUS: 0x%02X | FRAME_MODE: 0x%02X\n", status, frame_mode);
+            sleep_ms(10);
             frame_mode = I2C_Read(FRAME_MODE);
             status = I2C_Read(STATUS);
-            sleep_ms(50);
+            printf("STATUS: 0x%02X | FRAME_MODE: 0x%02X\n", status, frame_mode);
         }
 
         SPI_Read(false, frame);
@@ -67,14 +68,8 @@ int main(void)
             }
             printf("\n");
         }
-
-        //print the first 10 words from the frame buffer as temperatures
-        // for (int i = 0; i < 10; i++) {
-        //     uint16_t temp = convertTemp(frame[i]);
-        //     printf("%3d ", temp);
-        // }
         printf("\n\n");
-        sleep_ms(1000);
+
     }
     while (1) {sleep_ms(1000);}
 }
