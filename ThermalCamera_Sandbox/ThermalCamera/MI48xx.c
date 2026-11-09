@@ -1,5 +1,8 @@
 #include "MI48xx.h"
 
+//To Do:
+//    - Make sure that the GPIO pin READY_PIN is used to signal data ready, not the status register.
+
 void Start_SPI(void) {
     // SPI initialisation. 
     spi_init(SPI_PORT, SPI_SPEED);
@@ -14,7 +17,6 @@ void Start_SPI(void) {
 
     //The MI48xx uses 16 bit words and Mode 0.
     spi_set_format(SPI_PORT, 16, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
-    // For more examples of SPI use see https://github.com/raspberrypi/pico-examples/tree/master/spi
 }
 
 void Start_I2C(void) {
@@ -25,7 +27,6 @@ void Start_I2C(void) {
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
     gpio_pull_up(I2C_SDA);
     gpio_pull_up(I2C_SCL);
-    // For more examples of I2C use see https://github.com/raspberrypi/pico-examples/tree/master/i2c
 }
 
 void Setup_GPIO(void) {
