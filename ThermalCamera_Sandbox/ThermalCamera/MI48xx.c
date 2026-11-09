@@ -35,6 +35,9 @@ void Setup_GPIO(void) {
     gpio_init(RESET_PIN);
     gpio_set_dir(RESET_PIN, GPIO_OUT);
     gpio_put(RESET_PIN, 1);
+
+    gpio_init(ON_BOARD_LED);
+    gpio_set_dir(ON_BOARD_LED, GPIO_OUT);
 }
 
 void Reset_Camera(void) {
@@ -317,3 +320,6 @@ uint64_t Get_SenXor_ID(void) {
     return accumulator;
 }
 
+uint16_t convertTemp(uint16_t hexValue) {
+    return ((hexValue / 10) - 273.15) * 1.8 + 32; // Convert to Fahrenheit
+}

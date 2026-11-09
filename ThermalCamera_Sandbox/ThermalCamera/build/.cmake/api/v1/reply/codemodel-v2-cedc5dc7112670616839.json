@@ -2296,7 +2296,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "picotool::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-picotool-Debug-439120e8895c90478476.json",
+					"jsonFile" : "target-picotool-Debug-b504ee9d86d7ec173359.json",
 					"name" : "picotool",
 					"projectIndex" : 0
 				},
@@ -4799,7 +4799,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ThermalCamera::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ThermalCamera-Debug-a4c4dc3f76fd2b0539a4.json",
+					"jsonFile" : "target-ThermalCamera-Debug-d883afde1b04381e8786.json",
 					"name" : "ThermalCamera",
 					"projectIndex" : 0
 				},

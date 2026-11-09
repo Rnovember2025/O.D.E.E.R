@@ -24,6 +24,7 @@
 //GPIO Pin defines
 #define READY_PIN 12
 #define RESET_PIN 13
+#define ON_BOARD_LED 25
 
 //Register addresses on the thermal camera
 
@@ -127,5 +128,12 @@ uint8_t Get_Clock_Speed(void);
 uint16_t Get_Firmware_Version_Build(void);
 uint8_t Get_SenXor_Type(void);
 uint64_t Get_SenXor_ID(void);
+
+uint16_t convertTemp(uint16_t hexValue);
+
+//Struct to hold the frame data
+struct Frame {
+    uint16_t pixels[62][80];
+} typedef Frame;
 
 #endif
