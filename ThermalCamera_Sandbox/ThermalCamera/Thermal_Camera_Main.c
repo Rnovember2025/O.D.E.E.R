@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include "MI48xx.h"
-#include "pico/time.h"
-#include "pico/multicore.h"
+#include "Thermal_Camera_Main.h"
 
 void thermal_camera_main(void)
 {
@@ -12,7 +9,6 @@ void thermal_camera_main(void)
     Start_I2C();
 
     uint8_t status;
-    uint8_t frame_mode;
     uint32_t millis = 0;
     uint32_t last_millis = 0;
 
@@ -40,14 +36,14 @@ void thermal_camera_main(void)
     while (true) {
 
         millis = to_ms_since_boot(get_absolute_time());
-        while (millis - last_millis < 1000) {
+        while (millis - last_millis < 1) { //Don't actually need to wait here, but didn't want to completely remove in case it is needed again.
             millis = to_ms_since_boot(get_absolute_time());
         }
         
-        I2C_Write(FRAME_MODE, GET_SINGLE_FRAME | NO_HEADER);
+        I2C_Write(FRAME_MODE, GET_SINGLE_FRAME | NO_HEADER); //Single frame mode for now, eventually will need to do continuous mode. (if it works).
 
         //wait for the Data Ready GPIO pin READY_PIN to go high, indicating that the camera has finished capturing a frame
-        while (!gpio_get(READY_PIN)) {
+        while (!gpio_get(READY_PIN)) { //could use interupts here eventually.
             sleep_ms(10);
         }
 
@@ -62,7 +58,7 @@ void thermal_camera_main(void)
         
         last_millis = to_ms_since_boot(get_absolute_time());
 
-        if (++frame_number >= 10) {
+        if (++frame_number >= 10) { //Cycles through the ten places to store frames. This hopefully makes it so that the main core doesn't use it at the same time.
             frame_number = 0;
         }
     }
