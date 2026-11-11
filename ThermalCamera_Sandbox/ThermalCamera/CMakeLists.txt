@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(ThermalCamera ThermalCamera.c MI48xx.c Thermal_Camera_Main.c)
+add_executable(ThermalCamera ThermalCamera.c MI48xx.c Thermal_Camera_Main.c Test_I2C.c)
 
 pico_set_program_name(ThermalCamera "ThermalCamera")
 pico_set_program_version(ThermalCamera "0.1")

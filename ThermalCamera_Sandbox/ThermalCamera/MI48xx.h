@@ -131,9 +131,6 @@ uint64_t Get_SenXor_ID(void);
 
 uint16_t convertTemp(uint16_t hexValue);
 
-//Struct to hold the frame data
-struct Frame {
-    uint16_t pixels[62][80];
-} typedef Frame;
+typedef uint16_t Frame[62][80];
 
 #endif

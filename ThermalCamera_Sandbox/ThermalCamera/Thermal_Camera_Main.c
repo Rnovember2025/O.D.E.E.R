@@ -31,6 +31,7 @@ void thermal_camera_main(void)
     Enable_Median_Filter();
     
     Frame frames[10];
+
     int frame_number = 0;
 
     while (true) {
@@ -39,20 +40,20 @@ void thermal_camera_main(void)
         while (millis - last_millis < 1) { //Don't actually need to wait here, but didn't want to completely remove in case it is needed again.
             millis = to_ms_since_boot(get_absolute_time());
         }
-        
+
         I2C_Write(FRAME_MODE, GET_SINGLE_FRAME | NO_HEADER); //Single frame mode for now, eventually will need to do continuous mode. (if it works).
 
         //wait for the Data Ready GPIO pin READY_PIN to go high, indicating that the camera has finished capturing a frame
         while (!gpio_get(READY_PIN)) { //could use interupts here eventually.
-            sleep_ms(10);
+            sleep_ms(1);
         }
 
         gpio_put(ON_BOARD_LED, 1);
 
-        SPI_Read(false, frames[frame_number].pixels);
+        SPI_Read(false, frames[frame_number]);
 
         //send the pointer to the frame just captured
-        multicore_fifo_push_blocking((uintptr_t)&frames[frame_number]);
+        multicore_fifo_push_blocking((uint32_t) frames[frame_number]);
 
         gpio_put(ON_BOARD_LED, 0);
         
