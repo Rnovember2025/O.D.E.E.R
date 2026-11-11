@@ -245,3 +245,14 @@
 142	246	1794417689589763944	/home/wizard/Documents/PiPicoTesting/ThermalCamera/build/ThermalCamera.hex	4258daf2e75a36c1
 142	246	1794417689589763944	/home/wizard/Documents/PiPicoTesting/ThermalCamera/build/ThermalCamera.bin	4258daf2e75a36c1
 142	246	1794417689589763944	/home/wizard/Documents/PiPicoTesting/ThermalCamera/build/ThermalCamera.uf2	4258daf2e75a36c1
+11	142	1794420434939340766	CMakeFiles/ThermalCamera.dir/Test_I2C.c.o	aa3aa83e5d3f2f3e
+11	155	1794420434937735213	CMakeFiles/ThermalCamera.dir/ThermalCamera.c.o	b5ee95761c8543c0
+155	260	1794420435187637514	ThermalCamera.elf	4258daf2e75a36c1
+155	260	1794420435187637514	ThermalCamera.dis	4258daf2e75a36c1
+155	260	1794420435187637514	ThermalCamera.hex	4258daf2e75a36c1
+155	260	1794420435187637514	ThermalCamera.bin	4258daf2e75a36c1
+155	260	1794420435187637514	ThermalCamera.uf2	4258daf2e75a36c1
+155	260	1794420435187637514	/home/wizard/Documents/PiPicoTesting/ThermalCamera/build/ThermalCamera.dis	4258daf2e75a36c1
+155	260	1794420435187637514	/home/wizard/Documents/PiPicoTesting/ThermalCamera/build/ThermalCamera.hex	4258daf2e75a36c1
+155	260	1794420435187637514	/home/wizard/Documents/PiPicoTesting/ThermalCamera/build/ThermalCamera.bin	4258daf2e75a36c1
+155	260	1794420435187637514	/home/wizard/Documents/PiPicoTesting/ThermalCamera/build/ThermalCamera.uf2	4258daf2e75a36c1

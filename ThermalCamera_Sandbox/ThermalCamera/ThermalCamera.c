@@ -14,7 +14,7 @@ int main() {
     //multicore_launch_core1(thermal_camera_main);
 
     for (int i = 0; i <= 0xFF; i++) {
-        uint8_t result = Write_I2C(i, 0x00);
+        uint8_t result = Write_I2C(0x00);
         printf("Result: %d\n", result);
         if (result == PICO_ERROR_GENERIC) {
             printf("I2C Write to address 0x%02X failed.\n\n", i);
