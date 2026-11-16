@@ -9,8 +9,6 @@ void setup_I2C_0(void) {
     gpio_pull_up(17);
 }
 
-uint8_t Write_I2C(uint8_t data) {
-
-    uint8_t buffer[1] = {data};
-    return i2c_write_timeout_us(i2c0, ESP_32_ADDRESS, buffer, 1, false, 500);
+uint8_t Write_I2C(uint8_t *data1, uint8_t length) {
+    return i2c_write_timeout_us(i2c0, ESP_32_ADDRESS, data1, length, false, 500);
 }
