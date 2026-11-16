@@ -4,7 +4,7 @@
 #include "Thermal_Camera_Main.h"
 #include "pico/multicore.h"
 
-int main() {
+int main() { 
     stdio_init_all();
 
     sleep_ms(2000);
