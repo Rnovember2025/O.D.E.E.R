@@ -18,8 +18,13 @@ void Detect_Hotspot(Frame *frame, Coordinate *hotspot_location) {
                     hotspot_location->column = i;
                 } 
             }
-        }
-        
+        }        
     }
+    pos_x = 435 + ((589-435)/80)*(hotspot_location->row);
+    pos_y = 452 + ((572-452)/62)*(hotspot_location->column);
+    hotspot_location->row = pos_x;
+    hotspot_location->column = pos_y;
+
+
 }
 
